@@ -1,0 +1,12 @@
+[package]
+name = "json_echo"
+version = "0.1.0"
+authors = ["herojan <herojan@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+parking_lot = "0.10.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "0.2", features = ["macros"] }
+warp = "0.2"
