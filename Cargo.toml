@@ -1,5 +1,5 @@
 [package]
-name = "json_echo"
+name = "json-echo"
 version = "0.1.0"
 authors = ["herojan <herojan@users.noreply.github.com>"]
 edition = "2018"

@@ -15,5 +15,5 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_USER }}
           password: ${{ secrets.DOCKER_PASS }}
-          repository: herojan/json_echo
+          repository: herojan/json-echo
           tags: latest
